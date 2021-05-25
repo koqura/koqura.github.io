@@ -1,0 +1,21 @@
+
+/* document-wide setting*/
+hmtl {
+   font-size: 100%;
+}
+
+/* this concerns everything in the body, unless more specifically styled. see below*/
+body {
+   color: blue;
+   }
+
+/* this concerns every paragraph, undless more specifically styled */
+p {
+   color: green;
+   }
+
+/* this concerns every div that is labelled as a class with the name one */
+.one {
+   color: red;
+   font-size: 200%;
+   }
