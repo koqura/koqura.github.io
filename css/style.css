@@ -100,6 +100,7 @@ body {
 .btn:hover {
    color: #fff;
    background-color: #f7c08a;
+   cursor: pointer;
 }
 
 /* Main Content */
@@ -182,4 +183,148 @@ body {
    text-align: center;
    color: #fff;
    padding-top: 10px;
+}
+
+/* About Page */
+
+.about  {
+   height: 400px;
+}
+
+.about .about-info {
+   float: left;
+   width: 50%;
+   text-align: left;
+}
+
+.about .about-info h1 {
+   padding: 40px 40px;
+   font-size: 40px;
+}
+
+.about .about-info p {
+   padding: 0px 40px;
+   line-height: 2;
+}
+
+.about-image-box {
+   height: 100%;
+   width: 50%;
+   float: right;
+   padding-top: 30px;
+}
+
+.about-image {
+   background: url('../img/photo-2.jpg') no-repeat center /cover;
+   height: 80%;
+   width: 80%;
+   /* text-align: right; */
+   border-radius: 50%;
+}
+
+/* Testimonials */
+
+.testimonials-box {
+   background: url('../img/test-bg.jpg') no-repeat center center/cover;
+   min-height: 600px;
+   margin-bottom: -20px;
+}
+
+.testimonials-box h2 {
+   text-align: center;
+   color: #fff;
+   font-size: 40px;
+   padding-top: 70px;
+   padding-bottom: 40px;
+   margin-bottom: 60px;
+}
+
+.testimonials-box .testimonial {
+   background-color: #f7c08a;
+   border-radius: 5px;
+   margin: 20px 10px;
+   height: 150px;
+}
+
+.testimonials-box .testimonial p {
+   padding: 30px;
+   float: right;
+   width: 80%;
+   line-height: 2rem;
+}
+
+.testimonials-box .testimonial .person-1 {
+   background: url('../img/person-1.jpg') no-repeat center center/cover;
+   float: left;
+   width: 17%;
+   border-radius: 50%;
+   height: 90%;
+   margin: 10px 0px 0px 10px;
+}
+
+.testimonials-box .testimonial .person-2 {
+   background: url('../img/person-2.jpg') no-repeat center center/cover;
+   float: left;
+   width: 17%;
+   border-radius: 50%;
+   height: 90%;
+   margin: 10px 0px 0px 10px;
+}
+
+/* Contact Form */
+
+.contact-form {
+   min-height:500px;
+   width: 800px;
+   margin: auto;
+   padding-left: 20px;
+}
+
+.contact-form h1 {
+   font-size: 40px;
+   padding: 20px 20px 0px 0px;
+}
+
+.contact-form p {
+   padding: 20px 20px 20px 0px;
+}
+
+.contact-form label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.contact-form textarea {
+   min-height: 200px;
+}
+
+.contact-form button {
+   margin: 20px 0px;
+}
+
+/* Contact Details */
+
+.contact-details {
+   background-color: #333;
+   min-height: 250px;
+}
+
+.contact-details .detail {
+   float: left;
+   width: 33.3%;
+   height: 100%;
+   text-align: center;
+   padding: 40px 0px;
+   color: #fff;
+}
+
+.contact-details .detail h3 {
+   margin: 10px 0px;
 }
