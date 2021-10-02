@@ -1,0 +1,185 @@
+/* Reset and Setting-Up*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+   line-height: 1.7rem
+}
+
+.clr {
+  clear: both;
+}
+
+/* Navbar */
+.navbar {
+   background-color: #333;
+   color: #fff;
+   width: 100%;
+   overflow: auto;
+   margin: auto;
+}
+
+#logo {
+   color: white;
+   text-decoration: none;
+}
+
+.navbar h1 {
+   float: left;
+   padding: 20px;
+}
+
+.navbar ul {
+   float: right;
+   list-style: none;
+   padding-right: 20;
+}
+
+.navbar ul li {
+   float: left;
+}
+
+.navbar ul li a {
+   text-align: center;
+   padding: 20px;
+   text-decoration: none;
+   color: #fff;
+   display: block;
+}
+
+.navbar ul li a:hover,
+.navbar ul li .active {
+   background: #444;
+   color: #f7c08a;
+}
+
+/* Showcase */
+.showcase {
+   background: url('../img/showcase.jpg') no-repeat center center/cover;
+   height: 600px;
+}
+
+.showcase-content {
+   text-align: center;
+}
+
+.showcase .showcase-content h1 {
+   text-align: center;
+   padding-top: 170px;
+   font-size: 60px;
+   color: #fff;
+}
+
+.highlight {
+   color: #f7c08a;
+}
+
+.showcase .showcase-content p {
+   text-align: center;
+   padding: 20px 40px;
+   font-size: 1.5rem;
+   /* font-weight: 600; */
+   color: #fff;
+   line-height: 1.7;
+}
+
+.btn {
+   border: none;
+   background: #333;
+   color: #fff;
+   font-size: 18px;
+   padding: 13px 20px;
+   display: inline-block;
+   text-decoration: none;
+}
+
+.btn:hover {
+   color: #fff;
+   background-color: #f7c08a;
+}
+
+/* Main Content */
+
+.main {
+   height: 400px;
+}
+
+.main-image {
+   float: left;
+   width: 50%;
+   background: url('../img/photo-1.jpg') no-repeat;
+   min-height: 100%;
+}
+
+.main-history {
+   float: right;
+   width: 50%;
+   background-color: #444;
+   text-align: center;
+   height: 100%
+}
+
+.main-history h2 {
+   padding-top: 50px;
+}
+
+.main-history p {
+   padding: 30px;
+}
+
+.main-history .btn {
+   background-color: #fff;
+   color: #000;
+}
+
+.btn:hover {
+   color: #000;
+   background-color: #f7c08a;
+}
+
+
+/* Features */
+
+.features {
+   min-height: 300px;
+}
+
+.features h3 {
+   padding-top: 10px;
+}
+
+.features p {
+   padding: 10px 20px;
+}
+
+.features .features-light {
+   height: 100%;
+   text-align: center;
+   width: 33.3%;
+   float: left;
+   padding: 60px;
+}
+
+.features .features-dark {
+   height: 100%;
+   text-align: center;
+   width: 33.3%;
+   float: left;
+   background-color: #f7c08a;
+   padding: 60px;
+}
+
+/* Footer */
+
+.footer-box {
+   width: 100%;
+   min-height: 50px;
+   background-color: #444;
+   text-align: center;
+   color: #fff;
+   padding-top: 10px;
+}
