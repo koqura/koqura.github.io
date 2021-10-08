@@ -3,71 +3,151 @@
 
 <head>
    <meta charset="utf-8">
-   <title>Hotel AB | Welcome</title>
-
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <title>NewsGrid | Latest News</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <link rel="shortcut icon" href="favicon.ico">
+   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-   <header>
-      <nav class="navbar">
-         <!-- <div class="menu_bar"> -->
-
-         <h1><a href="#" id="logo">HAB</a></h1>
-         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-         <!-- </div> -->
+   <!-- <header> -->
+      <nav>
+         <div class="container">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="social-icons">
+               <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+               <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+               <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+               <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <div class="header-links">
+               <ul>
+                  <li><a href="#" class="current">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+               </ul>
+            </div>
+         </div>
       </nav>
 
       <div class="showcase">
-         <div class="showcase-content">
-            <h1><span class="highlight">Enjoy</span> Your Stay</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic enim dolore accusantium nobis, cupiditate eligendi velit aut quae dolor unde.</p>
-            <a href="about.html" class="btn">About Our Hotel</a>
+         <div class="container">
+            <div class="grid-container-showcase">
+               <div class="showcase-content">
+                  <h4 class="category category-sport">Sports</h4>
+                  <h3>Some Sports Article</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolores earum veniam adipisci, ducimus ut magnam, vitae fuga unde totam laboriosam quod nihil! Veniam distinctio consequuntur impedit, nisi, repudiandae autem.</p>
+                  <a href="article.html" class="btn">Read More</a>
+               </div>
+            </div>
          </div>
       </div>
-   </header>
+   <!-- </header> -->
 
-   <section class="main">
-      <div class="main-image"></div>
-      <div class="main-history">
-         <h2><span class="highlight">The History</span> Of Our Hotel</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure adipisci voluptatum praesentium sed nesciunt quisquam, illo molestiae quo dolorum, distinctio minima nobis deserunt magnam consequuntur. Recusandae ullam tempora, quos dignissimos!</p>
-         <a href="#" class="btn">Read More</a>
+   <section class="main-news">
+      <div class="container">
+         <h2>Editor Picks</h2>
+         <div class="grid-container-news">
+            <div class="card">
+               <img src="/img/articles/ent1.jpg" alt="">
+               <div class="card-content">
+                  <div class="category category-ent">Entertainment</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card bg-dark">
+               <div class="card-content">
+                  <div class="category category-sport">Sports</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="/img/articles/tech1.jpg" alt="">
+               <div class="card-content">
+                  <div class="category category-tech">Technology</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="/img/articles/sports1.jpg" alt="">
+               <div class="card-content">
+                  <div class="category category-sport">Sports</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="/img/articles/tech2.jpg" alt="">
+               <div class="card-content">
+                  <div class="category category-tech">Technology</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card bg-primary">
+               <div class="card-content">
+                  <div class="category category-sport">Sports</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <img src="/img/articles/ent2.jpg" alt="">
+               <div class="card-content">
+                  <div class="category category-ent">Entertainment</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
+               </div>
+            </div>
+         </div>
       </div>
-
    </section>
-   <section class="features">
-      <div class="features-light">
-         <i class="fas fa-hotel fa-3x"></i>
-         <h3>Great Location</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, similique.</p>
+
+   <!-- Footer -->
+
+   <footer class="bg-dark">
+      <div class="container ">
+         <div class="footer-item">
+            <img src="img/logo_light.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime, quidem officiis, nemo totam neque. Praesentium nemo molestiae modi dolore.</p>
+         </div>
+         <div class="footer-item">
+            <h3>Email Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur!</p>
+            <form class="footer-form" action="index.html" method="post">
+               <input type="email" name="email" placeholder="Enter Email...">
+               <button type="button" name="button" class="btn">Subscribe
+               </button>
+            </form>
+         </div>
+         <div class="footer-item">
+            <h3>Site Links</h3>
+            <ul>
+               <li><a href="#"></a>Help &amp; Support</li>
+               <li><a href="#"></a>Privacy Policy</li>
+               <li><a href="#"></a>About Us</li>
+               <li><a href="#"></a>Contact</li>
+            </ul>
+         </div>
+         <div class="footer-item">
+            <h3>Join Our Club</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, excepturi!</p>
+            <a href="#" class="btn">Join Now</a>
+         </div>
+         <div class="footer-item">
+            Copyright &copy; 2021, All Rights Reserved
+         </div>
       </div>
-      <div class="features-dark">
-         <i class="fas fa-utensils fa-3x"></i>
-         <h3>Free Meals</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, similique.</p>
-      </div>
-      <div class="features-light">
-         <i class="fas fa-dumbbell fa-3x"></i>
-         <h3>Fitness Room</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, similique.</p>
-      </div>
-   </section>
 
-  <div class="clr"></div>
-
-<footer class="footer">
-   <div class="footer-box">
-      <p>Hotel AB &copy; 2021, All Rights Reserved</p>
-   </div>
-
-</footer>
-
+   </footer>
 </body>
 
 </html>
