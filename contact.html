@@ -3,69 +3,96 @@
 
 <head>
    <meta charset="utf-8">
-   <title>Hotel AB | Welcome</title>
+   <title>Contact Me</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+   <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
 
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-   <header>
-      <nav class="navbar">
+   <!-- Header -->
+   <header id="header-inner">
+      <div class="container">
+         <nav id="main-nav">
+            <img src="img/logo.png" alt="" id="logo">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="contact.html class=" current"">Contact</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
 
-         <h1><a href="#" id="logo">HAB</a></h1>
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#" class="active">Contact</a></li>
-         </ul>
-      </nav>
-
-      <section class="contact-form">
-         <h1><span class="highlight">Contact</span> Us</h1>
-         <p>Please fill out the form below to contact us</p>
-         <form class="form" >
-            <div class="form-entry">
-               <label for="name">Name</label>
-               <input type="text" name="name" id='name'>
+   <!-- Section A: Contact Form -->
+   <section id="contact-a" class="text-center py-3">
+      <div class="container">
+         <h2 class="section-title">Contact Me</h2>
+         <div class="bottom-line"></div>
+         <p class="lead">Here is how you can reach me</p>
+         <form>
+            <div class="text-fields">
+               <input type="text" class="text-input name-input" placeholder="Name">
+               <input type="text" class="text-input subject-input" placeholder="Subject">
+               <input type="email" class="text-input email-input" placeholder="Email">
+               <input type="text" class="text-input phone-input" placeholder="Phone">
+               <textarea class="text-input message-input" placeholder="Enter Message"></textarea>
             </div>
-            <div class="form-entry">
-               <label for="email">Email</label>
-               <input type="email" name="email" id='email'>
-            </div>
-            <div class="form-entry">
-               <label for="message">Message</label>
-               <textarea name="message" id="message"></textarea>
-            </div>
-            <button type="submit" class='btn'>Submit</button>
+            <button type="submit" class="btn-dark">Submit</button>
          </form>
-      </section>
+      </div>
+   </section>
 
-      <section class="contact-details">
-         <div class="detail">
-            <i class="fas fa-hotel fa-3x"></i>
-            <h3>Location</h3>
-            <p>50 Main st, Boston MA</p>
-         </div>
-         <div class="detail">
-            <i class="fas fa-phone fa-3x"></i>
-            <h3>Phone Number</h3>
-            <p>(555) 555-5555</p>
-         </div>
-         <div class="detail">
-            <i class="fas fa-envelope fa-3x"></i>
-            <h3>Email Address</h3>
-            <p>info@HAT.com</p>
-         </div>
-      </section>
+   <!-- Section B: Contact Info -->
 
-      <div class="clr"></div>
-      <footer class="footer">
-         <div class="footer-box">
-            <p>Hotel AB &copy; 2021, All Rights Reserved</p>
+   <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+         <div class="contact-info">
+            <div>
+               <i class="fas fa-envelope fa-2x"></i>
+               <h3>Email</h3>
+               <p>john@something.com</p>
+            </div>
+            <div>
+               <i class="fas fa-phone fa-2x"></i>
+               <h3>Phone</h3>
+               <p>1234567890</p>
+            </div>
+            <div>
+               <i class="fas fa-address-card fa-2x"></i>
+               <h3>Address</h3>
+               <p>50 Main Street, Boston</p>
+            </div>
          </div>
+      </div>
+   </section>
 
-      </footer>
+   <!-- Contact C: Tagline -->
+
+   <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+         <h1>Let's Start Your Next Project</h1>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="footer-flex">
+            <p>Copyright &copy; 2021. All Rights Reserved</p>
+            <div class="footer-social">
+               <ul>
+                  <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+   </footer>
 
 </body>
 

@@ -3,151 +3,148 @@
 
 <head>
    <meta charset="utf-8">
-   <title>NewsGrid | Latest News</title>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-   <link rel="shortcut icon" href="favicon.ico">
-   <link rel="stylesheet" href="/css/style.css">
+   <title>John Doe | WebDev, Photography and Design</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+   <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-   <!-- <header> -->
-      <nav>
-         <div class="container">
-            <a href="index.html"><img src="img/logo.png" alt=""></a>
-            <div class="social-icons">
-               <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-               <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-               <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-               <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-            </div>
-            <div class="header-links">
-               <ul>
-                  <li><a href="#" class="current">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-
-      <div class="showcase">
-         <div class="container">
-            <div class="grid-container-showcase">
-               <div class="showcase-content">
-                  <h4 class="category category-sport">Sports</h4>
-                  <h3>Some Sports Article</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolores earum veniam adipisci, ducimus ut magnam, vitae fuga unde totam laboriosam quod nihil! Veniam distinctio consequuntur impedit, nisi, repudiandae autem.</p>
-                  <a href="article.html" class="btn">Read More</a>
-               </div>
-            </div>
+   <!-- Header -->
+   <header id="header-home">
+      <div class="container">
+         <nav id="main-nav">
+            <img src="img/logo.png" alt="" id="logo">
+            <ul>
+               <li><a href="index.html" class="current">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="header-content">
+            <h1>I Am John The Designer</h1>
+            <p class="lead">I specialise in graphic design, UI/UX and Photography</p>
+            <a href="work.html" class="btn-light">View My Work</a>
          </div>
       </div>
-   <!-- </header> -->
+   </header>
 
-   <section class="main-news">
+   <!-- Section A: Specialise -->
+   <section id="home-a" class="text-center py-2">
       <div class="container">
-         <h2>Editor Picks</h2>
-         <div class="grid-container-news">
-            <div class="card">
-               <img src="/img/articles/ent1.jpg" alt="">
-               <div class="card-content">
-                  <div class="category category-ent">Entertainment</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
+         <h2 class="section-title">I Specialise In</h2>
+         <div class="bottom-line"></div>
+         <p class="lead">Photography as well as creating digital masterpieces and UI/UX layouts for websites and mobile applications</p>
+         <div class="specials">
+            <div>
+               <i class="fas fa-file-alt fa-2x"></i>
+               <h3>Concepting</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit odio voluptate eum ad voluptatibus voluptates esse quae atque sequi accusamus eligendi labore eveniet, assumenda, iure optio laudantium dolore perferendis, animi!</p>
             </div>
-
-            <div class="card bg-dark">
-               <div class="card-content">
-                  <div class="category category-sport">Sports</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
+            <div>
+               <i class="fas fa-desktop fa-2x"></i>
+               <h3>UI/UX</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit odio voluptate eum ad voluptatibus voluptates esse quae atque sequi accusamus eligendi labore eveniet, assumenda, iure optio laudantium dolore perferendis, animi!</p>
             </div>
-
-            <div class="card">
-               <img src="/img/articles/tech1.jpg" alt="">
-               <div class="card-content">
-                  <div class="category category-tech">Technology</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
+            <div>
+               <i class="fas fa-object-ungroup fa-2x"></i>
+               <h3>Visual Design</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit odio voluptate eum ad voluptatibus voluptates esse quae atque sequi accusamus eligendi labore eveniet, assumenda, iure optio laudantium dolore perferendis, animi!</p>
             </div>
-
-            <div class="card">
-               <img src="/img/articles/sports1.jpg" alt="">
-               <div class="card-content">
-                  <div class="category category-sport">Sports</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
-            </div>
-
-            <div class="card">
-               <img src="/img/articles/tech2.jpg" alt="">
-               <div class="card-content">
-                  <div class="category category-tech">Technology</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
-            </div>
-
-            <div class="card bg-primary">
-               <div class="card-content">
-                  <div class="category category-sport">Sports</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
-            </div>
-
-            <div class="card">
-               <img src="/img/articles/ent2.jpg" alt="">
-               <div class="card-content">
-                  <div class="category category-ent">Entertainment</div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, iste quaerat dolore nisi architecto?</p>
-               </div>
+            <div>
+               <i class="fas fa-thumbs-up fa-2x"></i>
+               <h3>Interaction</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit odio voluptate eum ad voluptatibus voluptates esse quae atque sequi accusamus eligendi labore eveniet, assumenda, iure optio laudantium dolore perferendis, animi!</p>
             </div>
          </div>
       </div>
    </section>
 
-   <!-- Footer -->
-
-   <footer class="bg-dark">
-      <div class="container ">
-         <div class="footer-item">
-            <img src="img/logo_light.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime, quidem officiis, nemo totam neque. Praesentium nemo molestiae modi dolore.</p>
-         </div>
-         <div class="footer-item">
-            <h3>Email Newsletter</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur!</p>
-            <form class="footer-form" action="index.html" method="post">
-               <input type="email" name="email" placeholder="Enter Email...">
-               <button type="button" name="button" class="btn">Subscribe
-               </button>
-            </form>
-         </div>
-         <div class="footer-item">
-            <h3>Site Links</h3>
+   <!-- Section B: Stats -->
+   <section id="home-b" class="text-center py-2">
+      <div class="stats">
+         <div>
             <ul>
-               <li><a href="#"></a>Help &amp; Support</li>
-               <li><a href="#"></a>Privacy Policy</li>
-               <li><a href="#"></a>About Us</li>
-               <li><a href="#"></a>Contact</li>
+               <li><i class="fas fa-users fa-3x"></i></li>
+               <li class="stats-title">Clients</li>
+               <li class="stats-number">100</li>
             </ul>
          </div>
-         <div class="footer-item">
-            <h3>Join Our Club</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, excepturi!</p>
-            <a href="#" class="btn">Join Now</a>
+         <div>
+            <ul>
+               <li><i class="fas fa-award fa-3x"></i></li>
+               <li class="stats-title">Awards</li>
+               <li class="stats-number">3</li>
+            </ul>
          </div>
-         <div class="footer-item">
-            Copyright &copy; 2021, All Rights Reserved
+         <div>
+            <ul>
+               <li><i class="fas fa-hourglass-start fa-3x"></i></li>
+               <li class="stats-title">Hours Worked</li>
+               <li class="stats-number">3500</li>
+            </ul>
          </div>
+         <div>
+            <ul>
+               <li><i class="fas fa-code-branch fa-3x"></i></li>
+               <li class="stats-title">Projects Completed</li>
+               <li class="stats-number">135</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <!-- Section C -->
+   <section id="home-c" class="text-center py-2">
+      <div class="container">
+         <h2>My Creative Process</h2>
+         <div class="bottom-line"></div>
+         <p class="lead">All of my UI/UX and design projects are based off of a practiced formula to get the result that I am looking for</p>
+         <div class="workflows process">
+            <div class="workflow-1">
+               <i class="workflow-icon fas fa-file-alt fa-4x my-2"><div class="workflow-number">1</div></i>
+               <h2>Discuss the Project</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque animi libero ipsam asperiores amet dolorem eligendi, ipsum iure facere dicta!</p>
+            </div>
+            <div class="workflow-2">
+               <i class="workflow-icon fas fa-desktop fa-4x my-2"><div class="workflow-number">2</div></i>
+               <h2>Brainstorming &amp; Concept</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque animi libero ipsam asperiores amet dolorem eligendi, ipsum iure facere dicta!</p>
+            </div>
+            <div class="workflow-3">
+               <i class="workflow-icon fas fa-object-ungroup fa-4x my-2"><div class="workflow-number">3</div></i>
+               <h2>UI/UX Planning</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque animi libero ipsam asperiores amet dolorem eligendi, ipsum iure facere dicta!</p>
+            </div>
+            <div class="workflow-4">
+               <i class="workflow-icon fas fa-thumbs-up fa-4x my-2"><div class="workflow-number">4</div></i>
+               <h2>Interaction</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque animi libero ipsam asperiores amet dolorem eligendi, ipsum iure facere dicta!</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="footer-flex">
+            <p>Copyright &copy; 2021. All Rights Reserved</p>
+            <div class="footer-social">
+               <ul>
+                  <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+               </ul>
+            </div>
+         </div>
+
       </div>
 
    </footer>
+
 </body>
 
 </html>

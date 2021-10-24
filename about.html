@@ -3,88 +3,169 @@
 
 <head>
    <meta charset="utf-8">
-   <title>NewsGrid | About</title>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-   <link rel="shortcut icon" href="favicon.ico">
-   <link rel="stylesheet" href="/css/style.css">
+   <title>About Me| WebDev, Photography and Design</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+   <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-   <!-- <header> -->
-   <nav>
+   <!-- Header -->
+   <header id="header-inner">
       <div class="container">
-         <a href="index.html"><img src="img/logo.png" alt=""></a>
-         <div class="social-icons">
-            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-         </div>
-         <div class="header-links">
+         <nav id="main-nav">
+            <img src="img/logo.png" alt="" id="logo">
             <ul>
                <li><a href="index.html">Home</a></li>
-               <li><a href="#" class="current">About</a></li>
+               <li><a href="about.html" class="current">About</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="contact.html">Contact</a></li>
             </ul>
+         </nav>
+      </div>
+   </header>
+
+   <!-- Section A: Info -->
+   <section id="about-a" class="text-center py-3">
+      <div class="container">
+         <h2 class="section-title">About Me</h2>
+         <div class="bottom-line"></div>
+         <p class="lead">
+            Let me tell you a little about myself and what I do...
+         </p>
+         <div class="about-info">
+            <img src="img/about.jpg" alt="" class="bio-image">
+            <div class="bio bg-light">
+               <h4>Your Project is in Safe Hands</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque optio aliquid ipsa veniam rem quibusdam, nulla quidem dicta minima sed, dolorem voluptate beatae eos officia, quo obcaecati velit, hic atque!</p>
+            </div>
+            <div class="award-1">
+               <i class="fas fa-award fa-3x"></i>
+               <h3>Award One</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, incidunt!</p>
+
+            </div>
+            <div class="award-2">
+               <i class="fas fa-award fa-3x"></i>
+               <h3>Award Two</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, incidunt!</p>
+
+            </div>
+            <div class="award-3">
+               <i class="fas fa-award fa-3x"></i>
+               <h3>Award Three</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, incidunt!</p>
+
+            </div>
          </div>
       </div>
-   </nav>
-
-   <!-- About -->
-
-   <section class="about">
+   </section>
+   <!-- SEction B: Progress Bars -->
+   <section id="about-b" class="bg-dark py-3">
       <div class="container">
-         <div class="about-about">
-            <h1>About Our Organisation</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque veritatis commodi saepe molestias nobis accusantium eligendi voluptatibus porro harum debitis, magnam, voluptas aliquam impedit delectus vitae est aut at ipsum!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nihil, ad laudantium sequi fuga eos, aspernatur vero? Quia deserunt iste laborum iure, alias nostrum culpa, rerum minus eos consequatur vitae dignissimos voluptas
-               quam perferendis hic voluptatem distinctio, doloremque sapiente repudiandae! Molestias magnam reiciendis eius, assumenda aut sapiente nemo doloribus inventore. Suscipit, vel, incidunt alias nihil ab quam dignissimos reprehenderit?
-               Saepe.</p>
+         <h2 class="section-title text-center">Technical Skills</h2>
+         <div class="bottom-line"></div>
+         <h4>Photography: </h4>
+         <div class="progress">
+            <div style="width:100%"></div>
          </div>
-         <div class="about-sidebar bg-primary">
-            <h3>Join Our Club</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro corporis architecto facilis, eveniet officiis voluptate.</p>
-            <a href="#" class="btn btn-dark">Join Now!</a>
+         <h4>Adobe Photoshop: </h4>
+         <div class="progress">
+            <div style="width:80%"></div>
+         </div>
+         <h4>Adobe Illustrator: </h4>
+         <div class="progress">
+            <div style="width:70%"></div>
+         </div>
+         <h4>HTML &amp; CSS: </h4>
+         <div class="progress">
+            <div style="width:100%"></div>
+         </div>
+         <h4>Wordpress: </h4>
+         <div class="progress">
+            <div style="width:80%"></div>
+         </div>
+         <h4>Magento: </h4>
+         <div class="progress">
+            <div style="width:70%"></div>
          </div>
       </div>
    </section>
 
-   <!-- Footer -->
+   <!-- Section C: Logos -->
 
-   <footer class="bg-dark">
-      <div class="container ">
-         <div class="footer-item">
-            <img src="img/logo_light.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime, quidem officiis, nemo totam neque. Praesentium nemo molestiae modi dolore.</p>
+   <section id="about-c" class="py-4 bg-light">
+      <div class="container">
+         <div class="about-logos">
+            <img src="img/about-logos/logo-envato.png" alt="">
+            <img src="img/about-logos/logo-wordpress.png" alt="">
+            <img src="img/about-logos/logo-woocommerce.png" alt="">
+            <img src="img/about-logos/logo-magento.png" alt="">
          </div>
-         <div class="footer-item">
-            <h3>Email Newsletter</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur!</p>
-            <form class="footer-form" action="index.html" method="post">
-               <input type="email" name="email" placeholder="Enter Email...">
-               <button type="button" name="button" class="btn">Subscribe
-               </button>
-            </form>
+      </div>
+   </section>
+
+   <!-- Section D: Testimonials -->
+   <section id="about-d" class="py-4">
+      <div class="container">
+         <h2 class="section-title text-center">Testimonials</h2>
+         <div class="bottom-line"></div>
+         <p class="lead text-center">Take a look at what my clients say...</p>
+         <div class="testimonials">
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam, veritatis quia cupiditate maxime quis alias praesentium consectetur provident magnam nostrum vel voluptates assumenda commodi saepe rerum. Voluptate, reiciendis,
+                  velit.</p>
+               <ul>
+                  <li><img src="img/testimonials/person1.jpg" alt=""></li>
+                  <li>Sam Smith, New York</li>
+               </ul>
+            </div>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam, veritatis quia cupiditate maxime quis alias praesentium consectetur provident magnam nostrum vel voluptates assumenda commodi saepe rerum. Voluptate, reiciendis,
+                  velit.</p>
+               <ul>
+                  <li><img src="img/testimonials/person2.jpg" alt=""></li>
+                  <li>Sarah Williams, Michigan</li>
+               </ul>
+            </div>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam, veritatis quia cupiditate maxime quis alias praesentium consectetur provident magnam nostrum vel voluptates assumenda commodi saepe rerum. Voluptate, reiciendis,
+                  velit.</p>
+               <ul>
+                  <li><img src="img/testimonials/person3.jpg" alt=""></li>
+                  <li>Jill Johnson, London</li>
+               </ul>
+            </div>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est numquam, veritatis quia cupiditate maxime quis alias praesentium consectetur provident magnam nostrum vel voluptates assumenda commodi saepe rerum. Voluptate, reiciendis,
+                  velit.</p>
+               <ul>
+                  <li><img src="img/testimonials/person4.jpg" alt=""></li>
+                  <li>Steve Thompson, Boston</li>
+               </ul>
+            </div>
          </div>
-         <div class="footer-item">
-            <h3>Site Links</h3>
-            <ul>
-               <li><a href="#"></a>Help &amp; Support</li>
-               <li><a href="#"></a>Privacy Policy</li>
-               <li><a href="#"></a>About Us</li>
-               <li><a href="#"></a>Contact</li>
-            </ul>
-         </div>
-         <div class="footer-item">
-            <h3>Join Our Club</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, excepturi!</p>
-            <a href="#" class="btn">Join Now</a>
-         </div>
-         <div class="footer-item">
-            Copyright &copy; 2021, All Rights Reserved
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="footer-flex">
+            <p>Copyright &copy; 2021. All Rights Reserved</p>
+            <div class="footer-social">
+               <ul>
+                  <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+               </ul>
+            </div>
          </div>
       </div>
 
    </footer>
+
 </body>
 
 </html>
