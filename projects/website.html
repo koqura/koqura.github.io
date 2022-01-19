@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>koqura doing stuff</title>
+   <link rel="icon" type="image/x-icon" href="../images/kds2.png">
+   <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <nav id="mainnav">
+            <div id="logo">
+               <!-- <div id="logo">koqura <br> doing <br> stuff</div> -->
+               <img src="../images/kds.png" alt="koqura doing stuff">
+            </div>            <div id="navbar">
+               <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="../projects.html">Projects</a></li>
+                  <li><a href="../videos.html">Videos</a></li>
+                  <li><a href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <section>
+      <div class="container">
+         <article class="project">
+            <h1>Building a Website</h1>
+            <div class="project-textblocks">
+               <div id="project-textblock-1">
+                  But how do you set up a website? A website from scratch that is. I don't want to resort to website builders. Nothing wrong with them but I want to understand what I'm doing on a fundamental level. I envision the final website very
+                  minimalistic anyway, so how hard can it be writing a few lines of html and finding a hosting service? Let's find out.
+
+                  There are three steps to this:
+
+                  <ol>
+                     <li>Register a URL with a registrar</li>
+                     <li>Find a place to host your site</li>
+                     <li>Write the actual code</li>
+                  </ol>
+               </div>
+               <img src="images/website/1.png" alt="" id="project-image-1">
+               <div id="project-textblock-2">
+                  When you type a web address into a browser, that address is sent to a DNS-server (Domain Name System) that looks up the address in a list and returns an IP address instead. This translation is necessary as computers on the internet
+                  can only be found via their IP address. The same is true for the web server that will provide the data of the website. Any request thus needs to be directed to the web server that contains the data. If we don't want to type clunky
+                  IP addresses into the browser, which we could, we need the URL like www.google.com to be resolved into the IP address by the DNS first. So Step number one mandates the registrar to register the URL of our website: they inform the
+                  DNS which IP belongs to this URL. Accordingly, step number two chooses a physical location on the internet, the web server with the respective IP-address, where the files of step number three will be dumped into.
+               </div>
+               <img src="images/website/2.png" alt="" id="project-image-2">
+               <div id="project-textblock-3">
+                  There are numerous services that offer URL-registration. Living in Germany, I went with what I deemed a popular and hopefully decent German service. That's no endorsement, I could just as well have picked a different one. Google for
+                  instance also offers domain registration cheap and easy but they don't operate for German customers, apparently. I wanted to keep things quick and easy and kept with Strato. After waaaay too much agonising over the name of the
+                  website, the URL, possible privacy implications and the odd mental barrier, I just went for it.
+               </div>
+               <img src="images/website/3.png" alt="" id="project-image-3">
+               <div id="project-textblock-4">
+                  The next question to decide on seems more relevant though. Hosting your website. I had to decide where to put the files from this site. I researched three possible options:
+
+                  <ol>
+                     <li>commercial hosting service</li>
+                     <li>self-hosting</li>
+                     <li>GitHub</li>
+                  </ol>
+                  Again, there are plenty of services that offer cheap hosting with a ton of features. Including ready-made add-ins like Wordpress. But that's not what I want. For a long time I was leaning towards self-hosting. This would not only be free, it would also include more of the homemade and minimalist style that I try to follow. Basically, you need a computer that runs 24/7 with a server application like apache running on it that accepts requests and hands out data. This would have made for a great project for the raspberry pi. It would, however, need to be exposed to the internet in order to receive requests at any time. And that's where I don't feel adventurous enough for. I would not want to open up my home network to the internet, so I decided against this option. A compromise seemed to be hosting on GitHub, for free as well. You can set up a repository with the files of the website and hook it up to your registrar so they resolve requests to the repository on GitHub. This allows for an easy way to upload new content via ssh and built-in version control, so it's a win-win.
+               </div>
+            </div>
+         </article>
+
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div id="imprint">
+            <div>
+               <a href="impressum.html">impressum</a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+</body>
+
+</html>
